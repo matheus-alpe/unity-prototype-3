@@ -502,8 +502,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 644892ebb85fbb14aa8cf8c0e5c87f33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 15
-  gravityModifier: 2
+  jumpForce: 750
+  gravityModifier: 1.5
   isOnGround: 1
   gameOver: 0
 --- !u!65 &1574207530
@@ -525,8 +525,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.8799201, y: 3.0671077, z: 0.545409}
-  m_Center: {x: 0.008577213, y: 1.5396092, z: 0.004288584}
+  m_Size: {x: 0.8751414, y: 3.0671077, z: 0.65743005}
+  m_Center: {x: 0.0021551847, y: 1.5396092, z: 0.017479032}
 --- !u!54 &1574207531
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -535,9 +535,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1574207528}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 70
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 65.2
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
